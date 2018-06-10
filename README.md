@@ -1,4 +1,4 @@
-#Movie-search single page app
+# Movie-search single page app
 
 _How to install:_
 
@@ -11,7 +11,7 @@ _How to install:_
     * \$ npm start (or \$ yarn start)
 
 
-###Technology used:
+### Technology used:
 
 * React
 * React - Router
