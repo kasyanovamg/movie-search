@@ -1,0 +1,33 @@
+.searchbtn {
+    background: #f45363;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 40px;
+    text-decoration: none;
+    outline: none;
+    &:hover {
+        color: #000000;
+        box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.3);
+        color: #f45363;
+        background-color: #ffffff;
+    }
+}
+
+@media (max-width: 450px) and (min-width: 285px) {
+    .searchbtn { 
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 284px) {
+    .searchbtn { 
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+ }

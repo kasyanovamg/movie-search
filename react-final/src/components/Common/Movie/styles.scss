@@ -1,0 +1,49 @@
+.movie {
+    width: calc(33.33% - 40px);
+    padding: 16px 20px;
+    position: relative;
+    a {
+        text-decoration: none;
+    }
+    &__poster {
+        width: 100%;
+    }
+    &__info {
+        padding: 10px 0 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #000000;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    &__year {
+        border: 1px solid #8d8d8d;
+        border-radius: 2px;
+        padding: 1px 4px;
+        font-size: 12px;
+        color: #000000;
+    }
+    &__genres {
+        font-size: 12px;
+        color: #8d8d8d;
+    }
+    
+}
+
+@media (max-width: 450px) and (min-width: 285px) {
+    .movie {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 284px) {
+    .movie {
+        width: calc(100% - 40px);
+    }
+ }
