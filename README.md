@@ -16,6 +16,6 @@ _How to install:_
 * React
 * React - Router
 * Redux
-* Preprosessor: SASS
+* Preprocessor: SASS
 * Webpack (module bundler)
 * Enzyme, Jest for testing
